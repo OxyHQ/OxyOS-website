@@ -1,16 +1,16 @@
 Codename: trixie
-Date: Wed, 18 Jun 2025 01:52:20 UTC
+Date: Thu, 24 Jul 2025 02:43:25 UTC
 Architectures: amd64
 Components: main
 MD5Sum:
- b94ec3a1d08e78fc1bffa229338acb72 12127 main/binary-amd64/Packages
- 80298090382d88daf56a556f097bdfde 3999 main/binary-amd64/Packages.gz
+ 09245566120b2be3582f64b5bd4d5890 12176 main/binary-amd64/Packages
+ 4f58e83394a31493a6d6419935fbac5f 4009 main/binary-amd64/Packages.gz
  063287201b2354699acfe229a752201d 36 main/binary-amd64/Release
 SHA1:
- cab990b8ce5ba05f91a67c06e792c047ef2c3b75 12127 main/binary-amd64/Packages
- 4e8151132060760d2b371c2c1a47893fa903e20b 3999 main/binary-amd64/Packages.gz
+ 30bc58bd33547620909a741862c8d0a433ddb606 12176 main/binary-amd64/Packages
+ 74586de1ce37ded6138fa8a6b7ec23a52cf05a63 4009 main/binary-amd64/Packages.gz
  f9082edea14092794f38390390e06abf8a922f7d 36 main/binary-amd64/Release
 SHA256:
- 362b91e42e99471de97175224d08975d32757f329624158b2a00ca8db1ffbb6c 12127 main/binary-amd64/Packages
- 7d6e2292c54caac95fe57da0fbc07a9ed91db8dbc08d596cedf52360d351681d 3999 main/binary-amd64/Packages.gz
+ cd3c1fdca6cf916cb9829fd0c594ce82e6a07c34bed42df0ca7a2c7358bcf2f9 12176 main/binary-amd64/Packages
+ aeaab0b2408ea014ec19b30ed7ef2848be72c3083d299344429b5962e4350a48 4009 main/binary-amd64/Packages.gz
  f4aafa353a338baedf9e98523c13d7ffeda979ec3cf745f9fad977dd770595c8 36 main/binary-amd64/Release
