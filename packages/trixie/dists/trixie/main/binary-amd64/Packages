@@ -74,10 +74,10 @@ Homepage: https://crunchbangplusplus.org
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-java_13.0_all.deb
-Size: 1848
-SHA256: 8c95f614ad53aeec84ffbc3c340ae34e1f50831aeb54e509196c1fee42f27862
-SHA1: d43b3443d996fe7a338f19fd93512db76aca5996
-MD5sum: 541ed6e62cf61cbce39048a73d31e302
+Size: 1840
+SHA256: 7c8f5f6810b8c5860ca6c1a31693b9aa7b19954a1f7f114a318a7272ea08eeae
+SHA1: e92107ef5b38474806f0da24e15a215a112e7732
+MD5sum: 9e450969e3f24ebf502f074ac0d2b566
 Description: CrunchBangplusplus java meta package
  Installs various java packages.
 
@@ -92,10 +92,10 @@ Homepage: https://crunchbangplusplus.org
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-lamp_13.0_all.deb
-Size: 1904
-SHA256: c3d3012c813969d69661556d8d6a12506e60187ab2cf5138acdb35b0a28ecf6c
-SHA1: 8ce770056fbc6b10bd832595922d42fccaeb5076
-MD5sum: 03ade080cd064b0a62b127fba951b47e
+Size: 1896
+SHA256: 78955c599af33a49290115ce4a6b4b01dd84007b79cbf605009c0639f705a6f5
+SHA1: 33db30a0233b399495e5d603752a062c0dcd53c8
+MD5sum: 2f034503268e823f1dfb0ba64363edab
 Description: CrunchBangplusplus lamp meta package
  Installs various web server tools.
 
@@ -110,10 +110,10 @@ Homepage: https://crunchbangplusplus.org
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-libreoffice_13.0_all.deb
-Size: 1860
-SHA256: dd8cce23b9fd13447cccee71ecb94bb21b2dd628388df35fdbb876bfcaf6f9de
-SHA1: 30ca266b8c746439729eeeab1033bf651088780a
-MD5sum: 558303790514451ec33d8722390ff7d6
+Size: 1852
+SHA256: ad2dc76eb9a3d8e783df21854e678e0cb28eb192704773f0db1925a0733eb163
+SHA1: db2e53e8b2c8e2e483a51339cf4a4755e3f967df
+MD5sum: 298b575338100d4397f4380e9b887808
 Description: CrunchBangplusplus libreoffice meta package
  Installs libreoffice and associated gtk theme.
 
@@ -128,10 +128,10 @@ Homepage: https://crunchbangplusplus.org
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-packaging_13.0_all.deb
-Size: 1932
-SHA256: 338383060710e2cd5f24d68539f3c28807a9bb3d68164f647e411c11417f6ca5
-SHA1: 745ef055197cb8bec123c3d80310df5468444212
-MD5sum: 521c334de2f0693b4338c1574d6fb096
+Size: 1920
+SHA256: 0c6d0fd69f370e72958f6e726ede3942b221f17168e0f26a38f3c06a1ad4c2f0
+SHA1: 64c26d8835bc267e9e2f8d59945d4431ddbd468c
+MD5sum: 04eb367ce63c88dc33c64cd820945ecc
 Description: CrunchBangplusplus packaging meta package
  Installs various Debian packaging tools.
 
@@ -146,10 +146,10 @@ Homepage: https://crunchbangplusplus.org
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-printer-support_13.0_all.deb
-Size: 1908
-SHA256: 821e1944b7410d96cefc7b5b6df42daf067564c23e1f1cc7e621f49d545adcd3
-SHA1: 2e88b92743897d4dfc7bbbe298eee416f0ca420a
-MD5sum: 83af4f6290d342c4ca4dd4539d9a4674
+Size: 1900
+SHA256: a9e04c7ead2553c45463afb12dae8534a947ec157133f611e85967a4f610b4f9
+SHA1: 0d4761989205fd21eeaf0dc5e629ad5f2ed7c04c
+MD5sum: 2eca7b00c4ea77952b1446754446f169
 Description: CrunchBangplusplus printer support meta package
  Installs various printer packages to enable printer support.
 
@@ -164,10 +164,10 @@ Homepage: https://crunchbangplusplus.org
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-ssh_13.0_all.deb
-Size: 1852
-SHA256: be461ab42444ef4c6fa78bea95a2cfa592261ce60922c7fda724ab38aa934edb
-SHA1: 5c4dfb5450303660bb1ec9ad6e9956befcfe1385
-MD5sum: 11bbf47a8d1fd11e5308179d316e9bfa
+Size: 1848
+SHA256: 4534cd2526f6c63beeb30d856eff5c04b4d1d36c226e38bacd5c1d797b0fb616
+SHA1: d56276e1e20cf0c457b62de3ad41306aa10505ee
+MD5sum: a9b80a50154788d0994bee1d7089f2af
 Description: CrunchBangplusplus ssh meta package
  Installs ssh server and various ssh tools.
 
@@ -182,10 +182,10 @@ Homepage: https://crunchbangplusplus.org
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-vcs_13.0_all.deb
-Size: 1888
-SHA256: a9a318a72837249193b35c9579714e12d452fc4e6033e06f987d427a5c2a92a0
-SHA1: ec90baaa8d881d93319add0765af855da2dace35
-MD5sum: dda02ca29cb0d12c0ffc85e553aec13f
+Size: 1880
+SHA256: 974fad0980c9a0215eac5833a69163a2a59362094bc21c79c55f3a1959cd9968
+SHA1: 62bd6c1f4a5c1b1109ee8248d116daf3c727dc7b
+MD5sum: 22130e8c4fb8dd5a370d21c870b6f31c
 Description: CrunchBang version control meta package
  Installs various version control tools.
 
@@ -267,10 +267,10 @@ Homepage: https://crunchbangplusplus.org
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-welcome_13.0_all.deb
-Size: 7032
-SHA256: a0a6cbb3f8c78971085c929d824f3864564fbcff13e763a3da75fe9edcc01638
-SHA1: 9c26e11afe7a4aa4a97c7e724f6bb3fe9f1418fe
-MD5sum: 0b68d6567cda2e7aa5ace7793fb3bcc6
+Size: 7012
+SHA256: c23ca9557c6ee30555cdd5ae696982a63580a0fe951a9025db4bb44ebf94ff83
+SHA1: b409ce42d6c7cc98f123054bf7288462052de4ac
+MD5sum: 86f168b198f97db9054441bcd6f591a6
 Description: CrunchBangplusplus welcome script.
  Optional post installation script for CBPP.
 
