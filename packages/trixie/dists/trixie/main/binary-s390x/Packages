@@ -1,14 +1,14 @@
 Package: obapps
 Version: 0.2.5
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 43
 Depends: python3:any, python3-xlib, wxpython-tools
 Filename: pool/main/o/obapps/obapps_0.2.5_all.deb
-Size: 8304
-MD5sum: c2d726dcfe6e7c020c115672e61472bd
-SHA1: 4cc889a59e641b145de9e945107e4390b02f477e
-SHA256: cbe3f7c109c2977ec0ac9c701849602cd56a12aeabdff19e728b01839d23f832
+Size: 8312
+MD5sum: 9e63dbc60f3e33cce44caf9960815a65
+SHA1: 82a1eb5675697081e753e407a5a1ae459d776325
+SHA256: 0e8181c93190e4c2bc847c40b938fb952f24afe955005355f548515a91e1f324
 Section: x11
 Priority: extra
 Homepage: http://sourceforge.net/projects/obapps/
@@ -19,17 +19,17 @@ Description: GUI tool for configuring application settings in Openbox
 Package: obmenu
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 70
 Depends: python3, python3-gi
 Filename: pool/main/o/obmenu/obmenu_13.0_all.deb
 Size: 11824
-MD5sum: 173a08e5b2ba12b0d48311ee901f3664
-SHA1: 062add606a88fcd67391c9964e31a84e7b658f92
-SHA256: 5cbd03eed9bdba863317c293e589887c105bd0fd67468d1217dc175a28eed045
+MD5sum: f68e0f0485ed96d70a68d81653cdec2c
+SHA1: 3faf2f3b9bd262745861ee4bd09931eb59e4f325
+SHA256: 3526f2eeab7cc694c4acf2ce28b66ee6f831c443188fcab55b8c2cb181ca5199
 Section: misc
 Priority: extra
-Homepage: https://crunchbangplusplus.org/
+Homepage: https://os.oxy.so
 Description: various Openbox pipemenus.
  A repackaging of https://github.com/0x10/obmenu2
 
@@ -39,10 +39,10 @@ Architecture: all
 Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 1729
 Filename: pool/main/o/oxyos-configs/oxyos-configs_13.0_all.deb
-Size: 1572600
-MD5sum: 5323a466cf603e5ea651f7a16f379b6b
-SHA1: c840b5187c730384090d9600ea63ef9834f1de59
-SHA256: f96f82722fa484b80a2808517d109e6866aabfae100410b675b82b468b882746
+Size: 1572624
+MD5sum: 5cd17246202d2a133b9aad66a8b728c1
+SHA1: c63077d6a11901f4088452bfe510c8bcd382001b
+SHA256: 0030145a8dff94d875c972aee3e158a5c0b01537bed20f68e4509a473d0f70ed
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -56,14 +56,14 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 12
 Depends: python3-gi
 Filename: pool/main/o/oxyos-exit/oxyos-exit_13_all.deb
-Size: 2628
-MD5sum: 697a95e1d20d71f5fa23746d224ff5b9
-SHA1: fa91134dc0dbf25db8ed4be764138f9382ca7fc7
-SHA256: 7f5300d99316b59cc4407474f8efb26955ac003988b184dd31c801af790ce278
+Size: 2620
+MD5sum: ba5b60d1d8b701f98fb622d327e47e96
+SHA1: e8b181553eba1aaef35089aa76d7aa90c50f09cf
+SHA256: 236f10df328efb4b8a2b67fcc6bec5409a2eb34412cfc1327d26dfd9cde35c4c
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
-Description: CrunchBangPlusPlus logout script.
+Description: OxyOS logout script.
  GUI logout/shutdown/restart/suspend script.
 
 Package: oxyos-icon-theme
@@ -72,15 +72,15 @@ Architecture: all
 Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 78053
 Filename: pool/main/o/oxyos-icon-theme/oxyos-icon-theme_13.0_all.deb
-Size: 16454892
-MD5sum: 0092d284390a21cf51548652491e9c32
-SHA1: 71e1be1160e1be73b2d930930bccdef97ec253d2
-SHA256: 37b80e26873627296c8795e6854fd281b0651ab57e8a1b4e9e2e040d4280fab5
+Size: 16454352
+MD5sum: 5b3e5fb7c0e543070cd13f75f4ca6ec1
+SHA1: a5f8d2ab59975e5683891317cf4348054235f7d4
+SHA256: 112a2800c08053979d99d77c5d4a5e6967236a525eeb78103f2bedb7320980f3
 Section: x11
 Priority: optional
 Homepage: https://os.oxy.so
 Description: Icon theme with tilish style, by Tiheum
- Default icon themes for use with CrunchBangPlusPlus.
+ Default icon themes for use with OxyOS.
 
 Package: oxyos-lxdm-theme
 Version: 13.0
@@ -89,9 +89,9 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 342
 Filename: pool/main/o/oxyos-lxdm-theme/oxyos-lxdm-theme_13.0_all.deb
 Size: 94000
-MD5sum: f0efbbe62d4610e50a5750edd03fc2e8
-SHA1: d61ba62555b2f11cf4fab463d766243c351dcdba
-SHA256: ec6e8b3ddd965518a2297da3159dfee231730c1f56aa09402dae1d8f8ce801f7
+MD5sum: 7a8c3aa35ca4ba2b36ed22af072e94d3
+SHA1: 4d2098ca8086928259831af61b09352ac9a1ad51
+SHA256: 107bcbcd24001aa7b2478f68881e6981ccbf98736bf68f07c4bdba438b0fd7d4
 Section: unknown
 Priority: optional
 Homepage: https://os.oxy.so
@@ -106,14 +106,14 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: openjdk-25-jre
 Filename: pool/main/o/oxyos-meta-java/oxyos-meta-java_13.0_all.deb
-Size: 1844
-MD5sum: b98555097050d50cfe78bcc37b01a5ee
-SHA1: 87a2507579d99ceab62b86fa7d7d1fad7936f0e6
-SHA256: 76d586ddc662ffa3f68e0f0a11029e321b900ce86be52c48261ce6b0b1c87364
+Size: 1836
+MD5sum: a1b91bea94c040991e09cb40c670788b
+SHA1: bcf7f23d8a61bd19baf7960f3b99f8a4335463c6
+SHA256: c20d9b6e4fb2818186d5d13de808da706129fa8dbc10a20e7522422f85234cb0
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
-Description: CrunchBangplusplus java meta package
+Description: OxyOS java meta package
  Installs various java packages.
 
 Package: oxyos-meta-lamp
@@ -124,14 +124,14 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: apache2, default-mysql-server, php, php-pear, php-gd, php-mysql, php-imagick, php-curl, curl, rsync, cronolog
 Filename: pool/main/o/oxyos-meta-lamp/oxyos-meta-lamp_13.0_all.deb
-Size: 1904
-MD5sum: 424edc0dbe32cfc9b40251bd74d25e2a
-SHA1: 4966789bee9b3e29bfbe3287893450c7065f58c9
-SHA256: adfd599a8daf3a996c2dcf239f90cd88d115fe79a6850955e20a33a1d019f8c7
+Size: 1896
+MD5sum: d9e6ec006759fd75aa4d6516d5a6b3b3
+SHA1: 12fa24ea713268357d4eee12a5cc7c20b0549cc0
+SHA256: c30bf35070e1de8a4a1fbf365457646fbe76de915e005ae1746c9f5ff4bdd4b9
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
-Description: CrunchBangplusplus lamp meta package
+Description: OxyOS lamp meta package
  Installs various web server tools.
 
 Package: oxyos-meta-libreoffice
@@ -142,14 +142,14 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: libreoffice, libreoffice-gtk3
 Filename: pool/main/o/oxyos-meta-libreoffice/oxyos-meta-libreoffice_13.0_all.deb
-Size: 1856
-MD5sum: 24bda639641f1104e616e160320e2bbb
-SHA1: f20a598787651e0dc4d76fcf2bac62fbe2831fa8
-SHA256: 53d4c1b23e3247c00691c3cbf23cdfbf7568b568518eec9898ef50c452f29047
+Size: 1848
+MD5sum: 67bda8b6b8c2428e26fc284c5f234f4b
+SHA1: c5396566b698cb272b4023bd1e70daa2eb643fb2
+SHA256: fe30561c939aa6990456d7cb8ba1fcbcd92b49a6c365a3d470016799cf80d581
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
-Description: CrunchBangplusplus libreoffice meta package
+Description: OxyOS libreoffice meta package
  Installs libreoffice and associated gtk theme.
 
 Package: oxyos-meta-packaging
@@ -160,14 +160,14 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: build-essential, debhelper, cdbs, dh-make, diffutils, patch, gnupg, fakeroot, lintian, devscripts, pbuilder, dput, quilt
 Filename: pool/main/o/oxyos-meta-packaging/oxyos-meta-packaging_13.0_all.deb
-Size: 1928
-MD5sum: 33931448cacb924bb30e49198fa1f680
-SHA1: 873dc79e11bd480f5ec7d05aa0c072d161aacbda
-SHA256: abd98c29ed678fb75cd6131a42344246e5ecf4f647463bceab7712d687ea6dfd
+Size: 1916
+MD5sum: e20a01780a33d716001d21a9bbf09a88
+SHA1: 52f8d02367fc2d03c25106c28ba947e954014f90
+SHA256: ff7a57414ef207edce33b879bde75fe6fdd8200b00a407afe2503d302aa62caf
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
-Description: CrunchBangplusplus packaging meta package
+Description: OxyOS packaging meta package
  Installs various Debian packaging tools.
 
 Package: oxyos-meta-printer-support
@@ -178,14 +178,14 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: cups, printer-driver-cups-pdf, system-config-printer, printer-driver-hpijs
 Filename: pool/main/o/oxyos-meta-printer-support/oxyos-meta-printer-support_13.0_all.deb
-Size: 1904
-MD5sum: 409fb324a4f0dee1f20d1a0cc67b1ae1
-SHA1: 916ba680115c4282e5f8df21fc5b87507fc465ca
-SHA256: ad7302d81c3e111b1aafc859e0ba651081eadd62ed9dc72e9d3158dce12b294b
+Size: 1896
+MD5sum: 61d006e3193b376108fe41a6a3c28812
+SHA1: 876ecee884fdfa5451cb3bceeb3b213ce62a83d0
+SHA256: acbc0c3737cb557655f88e723cf57d3eb7492e997c918deb43cd80e9306b8536
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
-Description: CrunchBangplusplus printer support meta package
+Description: OxyOS printer support meta package
  Installs various printer packages to enable printer support.
 
 Package: oxyos-meta-ssh
@@ -196,14 +196,14 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: openssh-server, openssh-client
 Filename: pool/main/o/oxyos-meta-ssh/oxyos-meta-ssh_13.0_all.deb
-Size: 1852
-MD5sum: 431e878dd3213cd1527dfb576d45d9bb
-SHA1: c3718cbf98ee110a95a4cf79298fd162a36e5eb1
-SHA256: e67b5a8807b5dff505dd06cb1b8a83fc627ffb133bebc922437fb2a81d70c6bc
+Size: 1844
+MD5sum: f7b6f6ba24c5cb8ea7b7f8b497194e43
+SHA1: 1b869f447be599d3d111f74c0697580d064ba6b5
+SHA256: 598fe4eb02db1615c0e9d5aec30c9a1ec7a6f95ee07a1ec9b5c1b0a63999a84f
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
-Description: CrunchBangplusplus ssh meta package
+Description: OxyOS ssh meta package
  Installs ssh server and various ssh tools.
 
 Package: oxyos-meta-vcs
@@ -214,14 +214,14 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: git, git-gui, git-cvs, git-svn, git-email, mercurial, subversion, subversion-tools, bzr, brz, cvs
 Filename: pool/main/o/oxyos-meta-vcs/oxyos-meta-vcs_13.0_all.deb
-Size: 1884
-MD5sum: bb13ba0fdc98aa6b40d18eaccb7f03ad
-SHA1: be7d6af5ac1be58ab0ff087b52ae6315d69d4ebd
-SHA256: 4d12dcd6756bda96c2b56349896de0f46d404fb38c92c6bf606b80f2f5f9c7df
+Size: 1880
+MD5sum: c1145e4891cc8a656e0bbe9224b9c85c
+SHA1: 12ed8e16391a15b2e075c4a4dc2d8c30cf449e0e
+SHA256: 72d7a6584feceab572529e45b3ef1d0fcd8954bf929f94e246d42e543e8bb94a
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
-Description: CrunchBang version control meta package
+Description: OxyOS version control meta package
  Installs various version control tools.
 
 Package: oxyos-metapackage
@@ -231,15 +231,15 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Recommends: abiword, anacron, apt-xapian-index, arandr, arj, atril, bash-completion, bc, bzip2, catfish, oxyos-configs, oxyos-exit, oxyos-icon-theme, oxyos-lxdm-theme, oxyos-pipemenus, oxyos-ui-theme, oxyos-wallpapers, oxyos-welcome, compton, conky-all, cowsay, curl, debconf-utils, desktop-base, dmz-cursor-theme, dosfstools, e2fsprogs, eject, figlet, file-roller, filezilla, firefox-esr, fonts-freefont-ttf, fonts-liberation, ftp, galculator, gdebi, geany, geany-plugins, gigolo, gimp, gimp-plugin-registry, gmrun, gnome-icon-theme, gnumeric, gparted, gsimplecal, gvfs-fuse, hexchat, hsetroot, htop, ibus, jfsutils, lame, less, libnss-mdns, lxappearance, lxpolkit, lzop, mate-media, mate-power-manager, mate-settings-daemon-common, menu, mlocate, network-manager-gnome, network-manager-openvpn-gnome, network-manager-pptp-gnome, network-manager-vpnc-gnome, nitrogen, ntfs-3g, ntp, obapps, obconf, obmenu, openbox, openssh-client, os-prober, parcellite, pipewire-pulse, power-profiles-daemon, rpl, rsync, rzip, screen, scrot, sshfs, suckless-tools, synaptic, terminator, thunar, thunar-archive-plugin, thunar-media-tags-plugin, thunar-volman, tint2, transmission-gtk, tumbler, tumbler-plugins-extra, unace, unalz, unzip, usbutils, user-setup, viewnior, vlc, whois, wireless-tools, wmctrl, wireplumber, xdotool, xfburn, xfce4-notifyd, xfce4-screenshooter, xfsprogs, xinput, xorg, xscreensaver, xsel, xtightvncviewer, xz-utils, zenity, zip
 Filename: pool/main/o/oxyos-metapackage/oxyos-metapackage_13.0_all.deb
-Size: 2472
-MD5sum: 8f6fee9f5992bac950d6f420155d21f6
-SHA1: 23e289f642ed977bc9b93e7aac2d881f259bf0ae
-SHA256: 1115248dcd7490b7dc9dacf1c75bcd655c621dcc357d475a4ba6ba7a5e0eabab
+Size: 2460
+MD5sum: a1d254717991f1a476947363f52104b3
+SHA1: 3d6bc6d6d7c6adc47894180ba9519feee02197b9
+SHA256: 763bb17ba4fa3ecc1da8807ca6741c599877af07d0a51463228ce2690495d038
 Section: misc
 Priority: optional
 Homepage: https://os.oxy.so
-Description: metapackage for CrunchBangPlusPlus
- Basic metapackage for CrunchBangPlusPlus.
+Description: metapackage for OxyOS
+ Basic metapackage for OxyOS.
 
 Package: oxyos-pipemenus
 Version: 13.0
@@ -248,10 +248,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 41
 Depends: openbox, zenity, terminator, wget, compton, curl, tar, python3, python3-paramiko, mesa-utils
 Filename: pool/main/o/oxyos-pipemenus/oxyos-pipemenus_13.0_all.deb
-Size: 9956
-MD5sum: a05846058e5ec4e936b0dfe5493c6628
-SHA1: 62288a4cd81737c078c74bbc3d6dbb351ba85e46
-SHA256: e2266b6a69e422ecd6736c190c2eeab9e83b6cd87282fe4a5e6ef402582e8a05
+Size: 9960
+MD5sum: 7b1edd0d9477ad4cddc336a02acbaa2d
+SHA1: 0f244b03ca2defc8b318ae6bc9e5d560c591d822
+SHA256: 9b8cb267c054d9da3bd12f14820fa2b4e89e4831a39f7a63908fd2c09e365b61
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -267,13 +267,13 @@ Installed-Size: 2511
 Depends: gtk2-engines-murrine
 Filename: pool/main/o/oxyos-ui-theme/oxyos-ui-theme_13.0_all.deb
 Size: 99216
-MD5sum: 475faac4fb01e2c10ca9fc03c669e6a6
-SHA1: bf1937166418e15c7370d4c9149f8c0433b5642e
-SHA256: 911e8e4f795143540f92c9d266fc2c0bf0cc6d5c17b8cda6dfe8bc1dadb81a80
+MD5sum: ac6b8d0e7bddfb46a0f9f42d83199104
+SHA1: 7dfe85beffe84fb7ac8cefaaca767bf7fa8a0368
+SHA256: 6a6167179a20506def340e9622fb8e0e0e634028a3654c3e9690aa13d1b3859c
 Section: x11
 Priority: extra
 Homepage: https://os.oxy.so
-Description: default theme for CrunchBangPlusPlus
+Description: default theme for OxyOS
  Default GTK+ and Openbox themes for OxyOS.
 
 Package: oxyos-wallpapers
@@ -282,15 +282,15 @@ Architecture: all
 Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 269
 Filename: pool/main/o/oxyos-wallpapers/oxyos-wallpapers_13.0_all.deb
-Size: 266100
-MD5sum: e5b46c80b23051068c6f44795b4bdb6e
-SHA1: 320ea80781adbfe05544fc7ae14559e7b215f120
-SHA256: 1bd6099dfdeaf9e011585f0bad26a1e49630a30f0d915266498f794f09c4e3cc
+Size: 266092
+MD5sum: 18e6d9103f6598ec4f15e785def91d02
+SHA1: 0697067271445e1c977a8b225fa8f9f5477d68aa
+SHA256: 3f21bbd62deee5798236306a960604c649d05d1470ddc96a2dd14a9e6882efe4
 Section: x11
 Priority: extra
 Homepage: https://os.oxy.so
 Description: A selection of wallpapers
- Images for use as backgrounds with CrunchBangPlusPlus.
+ Images for use as backgrounds with OxyOS.
 
 Package: oxyos-welcome
 Version: 13.0
@@ -299,13 +299,13 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 37
 Depends: terminator, oxyos-pipemenus
 Filename: pool/main/o/oxyos-welcome/oxyos-welcome_13.0_all.deb
-Size: 7020
-MD5sum: 72f6d878c466afa54bdbbf7916e563bd
-SHA1: 7e68b4ae0cb954fd3db66ccfada429edc2080a60
-SHA256: c893925fda02ea6bc86565566eab7d9e7a520f0cf674d95c88fed2594e2e11c2
+Size: 7008
+MD5sum: 45eccb71497ebcc275c2c126d9a3448b
+SHA1: 40a17bcd3e12d663fe3e9aec01e8e74442b8900e
+SHA256: 3a07fdb2e2d05ef42c45a7ae725177dcdd2e1c3b10e8a1cff0b5e7cb8c093ec8
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
-Description: CrunchBangplusplus welcome script.
+Description: OxyOS welcome script.
  Optional post installation script for OxyOS.
 
