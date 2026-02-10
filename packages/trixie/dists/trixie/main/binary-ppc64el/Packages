@@ -1,9 +1,9 @@
 Package: cbpp-configs
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 1729
-Homepage: https://crunchbangplusplus.org/
+Homepage: https://os.oxy.so/
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-configs/cbpp-configs_13.0_all.deb
@@ -11,16 +11,16 @@ Size: 1572572
 SHA256: 50efbc77f70e9918486c28fd4a82ec14ecd56f2a9f8ad2f011a2037db2e07b5b
 SHA1: d24f01257d0bacdc527813b3e863d2d2d13f6b5c
 MD5sum: 63406977e16849f98009ce4ceb41b25c
-Description: config files for CBPP
- Various configuration files for use with CBPP.
+Description: config files for OxyOS
+ Various configuration files for use with OxyOS.
 
 Package: cbpp-exit
 Version: 13
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 12
 Depends: python3-gi
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-exit/cbpp-exit_13_all.deb
@@ -28,15 +28,15 @@ Size: 2624
 SHA256: 57e94b6adc6a1249dfeaaaccd9407b1306c57d58e8479cba2987a5753762312e
 SHA1: ccba5ac7a6c975666cafaf0b8642c9fbe6bd6263
 MD5sum: 3edf8e33c2a5abf61e916ca81952900f
-Description: CrunchBangPlusPlus logout script.
+Description: OxyOS logout script.
  GUI logout/shutdown/restart/suspend script.
 
 Package: cbpp-icon-theme
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 78053
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: optional
 Section: x11
 Filename: pool/main/c/cbpp-icon-theme/cbpp-icon-theme_13.0_all.deb
@@ -45,14 +45,14 @@ SHA256: 0a0c024e8fee981c5c518e4b0d32c7deb9618102e2828e248e39e359654ec246
 SHA1: 920dbf2e7722fcfacc41159f1e0c6926a01ad53b
 MD5sum: c7527160b76ec6a93224e990a020a379
 Description: Icon theme with tilish style, by Tiheum
- Default icon themes for use with CrunchBangPlusPlus.
+ Default icon themes for use with OxyOS.
 
 Package: cbpp-lxdm-theme
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 342
-Homepage: https://github.com/cbpp
+Homepage: https://github.com/OxyHQ
 Priority: optional
 Section: unknown
 Filename: pool/main/c/cbpp-lxdm-theme/cbpp-lxdm-theme_13.0_all.deb
@@ -67,10 +67,10 @@ Package: cbpp-meta-java
 Source: cbpp-welcome
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 8
 Depends: openjdk-25-jre
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-java_13.0_all.deb
@@ -78,17 +78,17 @@ Size: 1840
 SHA256: 7c8f5f6810b8c5860ca6c1a31693b9aa7b19954a1f7f114a318a7272ea08eeae
 SHA1: e92107ef5b38474806f0da24e15a215a112e7732
 MD5sum: 9e450969e3f24ebf502f074ac0d2b566
-Description: CrunchBangplusplus java meta package
+Description: OxyOS java meta package
  Installs various java packages.
 
 Package: cbpp-meta-lamp
 Source: cbpp-welcome
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 8
 Depends: apache2, default-mysql-server, php, php-pear, php-gd, php-mysql, php-imagick, php-curl, curl, rsync, cronolog
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-lamp_13.0_all.deb
@@ -96,17 +96,17 @@ Size: 1896
 SHA256: 78955c599af33a49290115ce4a6b4b01dd84007b79cbf605009c0639f705a6f5
 SHA1: 33db30a0233b399495e5d603752a062c0dcd53c8
 MD5sum: 2f034503268e823f1dfb0ba64363edab
-Description: CrunchBangplusplus lamp meta package
+Description: OxyOS lamp meta package
  Installs various web server tools.
 
 Package: cbpp-meta-libreoffice
 Source: cbpp-welcome
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 8
 Depends: libreoffice, libreoffice-gtk3
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-libreoffice_13.0_all.deb
@@ -114,17 +114,17 @@ Size: 1852
 SHA256: ad2dc76eb9a3d8e783df21854e678e0cb28eb192704773f0db1925a0733eb163
 SHA1: db2e53e8b2c8e2e483a51339cf4a4755e3f967df
 MD5sum: 298b575338100d4397f4380e9b887808
-Description: CrunchBangplusplus libreoffice meta package
+Description: OxyOS libreoffice meta package
  Installs libreoffice and associated gtk theme.
 
 Package: cbpp-meta-packaging
 Source: cbpp-welcome
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 8
 Depends: build-essential, debhelper, cdbs, dh-make, diffutils, patch, gnupg, fakeroot, lintian, devscripts, pbuilder, dput, quilt
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-packaging_13.0_all.deb
@@ -132,17 +132,17 @@ Size: 1920
 SHA256: 0c6d0fd69f370e72958f6e726ede3942b221f17168e0f26a38f3c06a1ad4c2f0
 SHA1: 64c26d8835bc267e9e2f8d59945d4431ddbd468c
 MD5sum: 04eb367ce63c88dc33c64cd820945ecc
-Description: CrunchBangplusplus packaging meta package
+Description: OxyOS packaging meta package
  Installs various Debian packaging tools.
 
 Package: cbpp-meta-printer-support
 Source: cbpp-welcome
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 8
 Depends: cups, printer-driver-cups-pdf, system-config-printer, printer-driver-hpijs
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-printer-support_13.0_all.deb
@@ -150,17 +150,17 @@ Size: 1900
 SHA256: a9e04c7ead2553c45463afb12dae8534a947ec157133f611e85967a4f610b4f9
 SHA1: 0d4761989205fd21eeaf0dc5e629ad5f2ed7c04c
 MD5sum: 2eca7b00c4ea77952b1446754446f169
-Description: CrunchBangplusplus printer support meta package
+Description: OxyOS printer support meta package
  Installs various printer packages to enable printer support.
 
 Package: cbpp-meta-ssh
 Source: cbpp-welcome
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 8
 Depends: openssh-server, openssh-client
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-ssh_13.0_all.deb
@@ -168,17 +168,17 @@ Size: 1848
 SHA256: 4534cd2526f6c63beeb30d856eff5c04b4d1d36c226e38bacd5c1d797b0fb616
 SHA1: d56276e1e20cf0c457b62de3ad41306aa10505ee
 MD5sum: a9b80a50154788d0994bee1d7089f2af
-Description: CrunchBangplusplus ssh meta package
+Description: OxyOS ssh meta package
  Installs ssh server and various ssh tools.
 
 Package: cbpp-meta-vcs
 Source: cbpp-welcome
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 8
 Depends: git, git-gui, git-cvs, git-svn, git-email, mercurial, subversion, subversion-tools, bzr, brz, cvs
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-meta-vcs_13.0_all.deb
@@ -186,16 +186,16 @@ Size: 1880
 SHA256: 974fad0980c9a0215eac5833a69163a2a59362094bc21c79c55f3a1959cd9968
 SHA1: 62bd6c1f4a5c1b1109ee8248d116daf3c727dc7b
 MD5sum: 22130e8c4fb8dd5a370d21c870b6f31c
-Description: CrunchBang version control meta package
+Description: OxyOS version control meta package
  Installs various version control tools.
 
 Package: cbpp-metapackage
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 8
 Recommends: abiword, anacron, apt-xapian-index, arandr, arj, atril, bash-completion, bc, bzip2, catfish, cbpp-configs, cbpp-exit, cbpp-icon-theme, cbpp-lxdm-theme, cbpp-pipemenus, cbpp-ui-theme, cbpp-wallpapers, cbpp-welcome, compton, conky-all, cowsay, curl, debconf-utils, desktop-base, dmz-cursor-theme, dosfstools, e2fsprogs, eject, figlet, file-roller, filezilla, firefox-esr, fonts-freefont-ttf, fonts-liberation, ftp, galculator, gdebi, geany, geany-plugins, gigolo, gimp, gimp-plugin-registry, gmrun, gnome-icon-theme, gnumeric, gparted, gsimplecal, gvfs-fuse, hexchat, hsetroot, htop, ibus, jfsutils, lame, less, libnss-mdns, lxappearance, lxpolkit, lzop, mate-media, mate-power-manager, mate-settings-daemon-common, menu, mlocate, network-manager-gnome, network-manager-openvpn-gnome, network-manager-pptp-gnome, network-manager-vpnc-gnome, nitrogen, ntfs-3g, ntp, obapps, obconf, obmenu, openbox, openssh-client, os-prober, parcellite, pipewire-pulse, power-profiles-daemon, rpl, rsync, rzip, screen, scrot, sshfs, suckless-tools, synaptic, terminator, thunar, thunar-archive-plugin, thunar-media-tags-plugin, thunar-volman, tint2, transmission-gtk, tumbler, tumbler-plugins-extra, unace, unalz, unzip, usbutils, user-setup, viewnior, vlc, whois, wireless-tools, wmctrl, wireplumber, xdotool, xfburn, xfce4-notifyd, xfce4-screenshooter, xfsprogs, xinput, xorg, xscreensaver, xsel, xtightvncviewer, xz-utils, zenity, zip
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: optional
 Section: misc
 Filename: pool/main/c/cbpp-metapackage/cbpp-metapackage_13.0_all.deb
@@ -203,16 +203,16 @@ Size: 2460
 SHA256: bbf4708649edd3176e1e2b05346dd831daba6c57407aa16b2a334ab6102ae562
 SHA1: da4273636a8b4259d71c4552211f7510765bd4b4
 MD5sum: e943c8725e899124ba82c6945595ee8f
-Description: metapackage for CrunchBangPlusPlus
- Basic metapackage for CrunchBangPlusPlus.
+Description: metapackage for OxyOS
+ Basic metapackage for OxyOS.
 
 Package: cbpp-pipemenus
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 41
 Depends: openbox, zenity, terminator, wget, compton, curl, tar, python3, python3-paramiko, mesa-utils
-Homepage: https://crunchbangplusplus.org/
+Homepage: https://os.oxy.so/
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-pipemenus/cbpp-pipemenus_13.0_all.deb
@@ -222,15 +222,15 @@ SHA1: fc3eb0a610260eab42364263d3c298d956ec5fbd
 MD5sum: 676e80405c61fef0d865c6d5c3570ca8
 Description: various Openbox pipemenus.
  Contains various Openbox pipemenus for use with
- CBPP.
+ OxyOS.
 
 Package: cbpp-ui-theme
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 2511
 Depends: gtk2-engines-murrine
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: extra
 Section: x11
 Filename: pool/main/c/cbpp-ui-theme/cbpp-ui-theme_13.0_all.deb
@@ -238,15 +238,15 @@ Size: 99188
 SHA256: 44eb2def8da7ebd579dcdd8d629fd6ce411e9d73ec19f952a494e23ef9a56a69
 SHA1: bca3e44317d796df75921ee5499fe3f5d8be3ab5
 MD5sum: f4d583b8dc573200342cccf327c791c4
-Description: default theme for CrunchBangPlusPlus
- Default GTK+ and Openbox themes for CBPP.
+Description: default theme for OxyOS
+ Default GTK+ and Openbox themes for OxyOS.
 
 Package: cbpp-wallpapers
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 269
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: extra
 Section: x11
 Filename: pool/main/c/cbpp-wallpapers/cbpp-wallpapers_13.0_all.deb
@@ -255,15 +255,15 @@ SHA256: 8d49f569f7d150fdfc8ecee027d7249453380cced2778038e6b0f985d873488a
 SHA1: b9613f79bbc451581e95e971f967fbc235e7e777
 MD5sum: 3aad16dc2b55532b89bc15e8318d3ddc
 Description: A selection of wallpapers
- Images for use as backgrounds with CrunchBangPlusPlus.
+ Images for use as backgrounds with OxyOS.
 
 Package: cbpp-welcome
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 37
 Depends: terminator, cbpp-pipemenus
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-welcome/cbpp-welcome_13.0_all.deb
@@ -271,13 +271,13 @@ Size: 7012
 SHA256: c23ca9557c6ee30555cdd5ae696982a63580a0fe951a9025db4bb44ebf94ff83
 SHA1: b409ce42d6c7cc98f123054bf7288462052de4ac
 MD5sum: 86f168b198f97db9054441bcd6f591a6
-Description: CrunchBangplusplus welcome script.
- Optional post installation script for CBPP.
+Description: OxyOS welcome script.
+ Optional post installation script for OxyOS.
 
 Package: obapps
 Version: 0.2.5
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 43
 Depends: python3:any, python3-xlib, wxpython-tools
 Homepage: http://sourceforge.net/projects/obapps/
@@ -295,10 +295,10 @@ Description: GUI tool for configuring application settings in Openbox
 Package: obmenu
 Version: 13.0
 Architecture: all
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: Ben Young <computermouth@os.oxy.so>
 Installed-Size: 70
 Depends: python3, python3-gi
-Homepage: https://crunchbangplusplus.org/
+Homepage: https://os.oxy.so/
 Priority: extra
 Section: misc
 Filename: pool/main/o/obmenu/obmenu_13.0_all.deb
