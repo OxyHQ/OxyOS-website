@@ -5,10 +5,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 43
 Depends: python3:any, python3-xlib, wxpython-tools
 Filename: pool/main/o/obapps/obapps_0.2.5_all.deb
-Size: 8312
-MD5sum: 9e63dbc60f3e33cce44caf9960815a65
-SHA1: 82a1eb5675697081e753e407a5a1ae459d776325
-SHA256: 0e8181c93190e4c2bc847c40b938fb952f24afe955005355f548515a91e1f324
+Size: 1772
+MD5sum: 7b631cf74670d499d056724c274dac30
+SHA1: 854712ac56ad32229f4619dd0f78543861faacd7
+SHA256: a0503b26dace62439e2b2b6bcce15bc4de10a8b121cf9c0541485fccdd5113f5
 Section: x11
 Priority: extra
 Homepage: http://sourceforge.net/projects/obapps/
@@ -23,10 +23,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 70
 Depends: python3, python3-gi
 Filename: pool/main/o/obmenu/obmenu_13.0_all.deb
-Size: 11824
-MD5sum: f68e0f0485ed96d70a68d81653cdec2c
-SHA1: 3faf2f3b9bd262745861ee4bd09931eb59e4f325
-SHA256: 3526f2eeab7cc694c4acf2ce28b66ee6f831c443188fcab55b8c2cb181ca5199
+Size: 11188
+MD5sum: 298482e7b66785168c6eb820089dd573
+SHA1: 86db355b589b5212bc1b2169c212781fbfcecf60
+SHA256: e48ebb3c98408b5b29f7ee4b978f65bdfb887164ba6cfde94b47d6765319ee2f
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -39,10 +39,10 @@ Architecture: all
 Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 1729
 Filename: pool/main/o/oxyos-configs/oxyos-configs_13.0_all.deb
-Size: 1572624
-MD5sum: 5cd17246202d2a133b9aad66a8b728c1
-SHA1: c63077d6a11901f4088452bfe510c8bcd382001b
-SHA256: 0030145a8dff94d875c972aee3e158a5c0b01537bed20f68e4509a473d0f70ed
+Size: 1570816
+MD5sum: 847df375fd22de96dd165c540a8f7584
+SHA1: dff8e4601a8ab3f3f971295ad287b716448ca0a8
+SHA256: 5880f036b79f9c1dd5045efebbb40ec432760de5ee70a86614b4f4e3d6eb90fd
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -56,10 +56,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 12
 Depends: python3-gi
 Filename: pool/main/o/oxyos-exit/oxyos-exit_13_all.deb
-Size: 2620
-MD5sum: ba5b60d1d8b701f98fb622d327e47e96
-SHA1: e8b181553eba1aaef35089aa76d7aa90c50f09cf
-SHA256: 236f10df328efb4b8a2b67fcc6bec5409a2eb34412cfc1327d26dfd9cde35c4c
+Size: 2144
+MD5sum: 6f74d99ffb7236d9573b0efd290da070
+SHA1: 3d14a9be7e764af41ae5fe46aa1e3743b74352d3
+SHA256: 5d733235fbd161360c4d04b8e7ff63c6580906454165d1ff99ffc6ec5be4fd9d
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -72,10 +72,10 @@ Architecture: all
 Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 78053
 Filename: pool/main/o/oxyos-icon-theme/oxyos-icon-theme_13.0_all.deb
-Size: 16454352
-MD5sum: 5b3e5fb7c0e543070cd13f75f4ca6ec1
-SHA1: a5f8d2ab59975e5683891317cf4348054235f7d4
-SHA256: 112a2800c08053979d99d77c5d4a5e6967236a525eeb78103f2bedb7320980f3
+Size: 16454532
+MD5sum: cabc6865612ad75999c0b71fe626a4df
+SHA1: 7880aaceb356ff2957789f8a5d92a0b029edddbb
+SHA256: 2b3b55b8cffdaf06b65430fedd3b451c7e0426c4604789b369c78e723f0b403b
 Section: x11
 Priority: optional
 Homepage: https://os.oxy.so
@@ -88,10 +88,10 @@ Architecture: all
 Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 342
 Filename: pool/main/o/oxyos-lxdm-theme/oxyos-lxdm-theme_13.0_all.deb
-Size: 94000
-MD5sum: 7a8c3aa35ca4ba2b36ed22af072e94d3
-SHA1: 4d2098ca8086928259831af61b09352ac9a1ad51
-SHA256: 107bcbcd24001aa7b2478f68881e6981ccbf98736bf68f07c4bdba438b0fd7d4
+Size: 93052
+MD5sum: e102f47e9cea000743ea1679bc6ef17c
+SHA1: f34f3a10775f9d38f385915520249e9065a01dcc
+SHA256: 043d7bc0cf3f1d7e4aa6810a65a1f3311ba44344e7e37079e514977f8dff1975
 Section: unknown
 Priority: optional
 Homepage: https://os.oxy.so
@@ -106,10 +106,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: openjdk-25-jre
 Filename: pool/main/o/oxyos-meta-java/oxyos-meta-java_13.0_all.deb
-Size: 1836
-MD5sum: a1b91bea94c040991e09cb40c670788b
-SHA1: bcf7f23d8a61bd19baf7960f3b99f8a4335463c6
-SHA256: c20d9b6e4fb2818186d5d13de808da706129fa8dbc10a20e7522422f85234cb0
+Size: 1212
+MD5sum: 64a5e0b386ebc01e8754b30b9b182c59
+SHA1: fd580f9d4fda287e6af5ab4b4b6f03d832d884fc
+SHA256: 6fb388bcb8f748e2d3dc2183dc095a8827e945d2df5e699f4881826dae3a4087
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -124,10 +124,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: apache2, default-mysql-server, php, php-pear, php-gd, php-mysql, php-imagick, php-curl, curl, rsync, cronolog
 Filename: pool/main/o/oxyos-meta-lamp/oxyos-meta-lamp_13.0_all.deb
-Size: 1896
-MD5sum: d9e6ec006759fd75aa4d6516d5a6b3b3
-SHA1: 12fa24ea713268357d4eee12a5cc7c20b0549cc0
-SHA256: c30bf35070e1de8a4a1fbf365457646fbe76de915e005ae1746c9f5ff4bdd4b9
+Size: 1272
+MD5sum: b847eca6fd500fa63746bb0e9efeab04
+SHA1: 886d9b32358b133149fe1d88feee76ee5d2a3d7c
+SHA256: 97d0694dc07a36f83576fb25a3bc42d99db68e2f876a9f9a1dc31292ad93a83d
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -142,10 +142,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: libreoffice, libreoffice-gtk3
 Filename: pool/main/o/oxyos-meta-libreoffice/oxyos-meta-libreoffice_13.0_all.deb
-Size: 1848
-MD5sum: 67bda8b6b8c2428e26fc284c5f234f4b
-SHA1: c5396566b698cb272b4023bd1e70daa2eb643fb2
-SHA256: fe30561c939aa6990456d7cb8ba1fcbcd92b49a6c365a3d470016799cf80d581
+Size: 1232
+MD5sum: 307a150961fee5aa4c45c6e3facde8cd
+SHA1: bd0755f76980aa98b133b6cbd691ca72b8ccfa70
+SHA256: ec2945a129a0b293a34b09efe1111608e8a4c11f65c3b304cc7f50096ebc0a5b
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -160,10 +160,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: build-essential, debhelper, cdbs, dh-make, diffutils, patch, gnupg, fakeroot, lintian, devscripts, pbuilder, dput, quilt
 Filename: pool/main/o/oxyos-meta-packaging/oxyos-meta-packaging_13.0_all.deb
-Size: 1916
-MD5sum: e20a01780a33d716001d21a9bbf09a88
-SHA1: 52f8d02367fc2d03c25106c28ba947e954014f90
-SHA256: ff7a57414ef207edce33b879bde75fe6fdd8200b00a407afe2503d302aa62caf
+Size: 1292
+MD5sum: cc64522337972c6fb5a9642d9082eaa6
+SHA1: 6a2c9e6b6426ac5f04a1bec841f2e6bb8e38fab9
+SHA256: 148feb257b91d9051991afb5f11cebd9992e11e2325acaa9493a24c59d515ee4
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -178,10 +178,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: cups, printer-driver-cups-pdf, system-config-printer, printer-driver-hpijs
 Filename: pool/main/o/oxyos-meta-printer-support/oxyos-meta-printer-support_13.0_all.deb
-Size: 1896
-MD5sum: 61d006e3193b376108fe41a6a3c28812
-SHA1: 876ecee884fdfa5451cb3bceeb3b213ce62a83d0
-SHA256: acbc0c3737cb557655f88e723cf57d3eb7492e997c918deb43cd80e9306b8536
+Size: 1272
+MD5sum: b6f8b99487a60ea44923480a37c2c948
+SHA1: bd26145c8792308c16136af232dac16a9d842fe3
+SHA256: d9a35bf3b6fcdfdc344b1460208136343fc58cd125c6ced4bc459b66befe5168
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -196,10 +196,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: openssh-server, openssh-client
 Filename: pool/main/o/oxyos-meta-ssh/oxyos-meta-ssh_13.0_all.deb
-Size: 1844
-MD5sum: f7b6f6ba24c5cb8ea7b7f8b497194e43
-SHA1: 1b869f447be599d3d111f74c0697580d064ba6b5
-SHA256: 598fe4eb02db1615c0e9d5aec30c9a1ec7a6f95ee07a1ec9b5c1b0a63999a84f
+Size: 1220
+MD5sum: fd1a107c0a2d4497bca19cc2a233f702
+SHA1: 2f984392477aa70ec097e993f4ec54146ab7c7ec
+SHA256: a705a96e75a24662c08bebbdd22df95bc9e424245c652307268d36fae4f737ac
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -214,10 +214,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Depends: git, git-gui, git-cvs, git-svn, git-email, mercurial, subversion, subversion-tools, bzr, brz, cvs
 Filename: pool/main/o/oxyos-meta-vcs/oxyos-meta-vcs_13.0_all.deb
-Size: 1880
-MD5sum: c1145e4891cc8a656e0bbe9224b9c85c
-SHA1: 12ed8e16391a15b2e075c4a4dc2d8c30cf449e0e
-SHA256: 72d7a6584feceab572529e45b3ef1d0fcd8954bf929f94e246d42e543e8bb94a
+Size: 1256
+MD5sum: b0c06c5991f4afe83441856fcc82b02d
+SHA1: 6e5ea4f4f7c52b676b8fe35648e99b5e18d789ca
+SHA256: 3a0991fa9cd6b724f91ff43d2036cd052a35640744cdb93d933bed4cce2f33fc
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -231,10 +231,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 8
 Recommends: abiword, anacron, apt-xapian-index, arandr, arj, atril, bash-completion, bc, bzip2, catfish, oxyos-configs, oxyos-exit, oxyos-icon-theme, oxyos-lxdm-theme, oxyos-pipemenus, oxyos-ui-theme, oxyos-wallpapers, oxyos-welcome, compton, conky-all, cowsay, curl, debconf-utils, desktop-base, dmz-cursor-theme, dosfstools, e2fsprogs, eject, figlet, file-roller, filezilla, firefox-esr, fonts-freefont-ttf, fonts-liberation, ftp, galculator, gdebi, geany, geany-plugins, gigolo, gimp, gimp-plugin-registry, gmrun, gnome-icon-theme, gnumeric, gparted, gsimplecal, gvfs-fuse, hexchat, hsetroot, htop, ibus, jfsutils, lame, less, libnss-mdns, lxappearance, lxpolkit, lzop, mate-media, mate-power-manager, mate-settings-daemon-common, menu, mlocate, network-manager-gnome, network-manager-openvpn-gnome, network-manager-pptp-gnome, network-manager-vpnc-gnome, nitrogen, ntfs-3g, ntp, obapps, obconf, obmenu, openbox, openssh-client, os-prober, parcellite, pipewire-pulse, power-profiles-daemon, rpl, rsync, rzip, screen, scrot, sshfs, suckless-tools, synaptic, terminator, thunar, thunar-archive-plugin, thunar-media-tags-plugin, thunar-volman, tint2, transmission-gtk, tumbler, tumbler-plugins-extra, unace, unalz, unzip, usbutils, user-setup, viewnior, vlc, whois, wireless-tools, wmctrl, wireplumber, xdotool, xfburn, xfce4-notifyd, xfce4-screenshooter, xfsprogs, xinput, xorg, xscreensaver, xsel, xtightvncviewer, xz-utils, zenity, zip
 Filename: pool/main/o/oxyos-metapackage/oxyos-metapackage_13.0_all.deb
-Size: 2460
-MD5sum: a1d254717991f1a476947363f52104b3
-SHA1: 3d6bc6d6d7c6adc47894180ba9519feee02197b9
-SHA256: 763bb17ba4fa3ecc1da8807ca6741c599877af07d0a51463228ce2690495d038
+Size: 1900
+MD5sum: f52ab09b64ea6d3cb86e8f5fbd561a58
+SHA1: 048d71361c563143641aef2a3b4f9e0bcbc10556
+SHA256: 7952ae579d00578a71dfb02f98617e905e2625ff03ffce318e4e097a12557274
 Section: misc
 Priority: optional
 Homepage: https://os.oxy.so
@@ -248,10 +248,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 41
 Depends: openbox, zenity, terminator, wget, compton, curl, tar, python3, python3-paramiko, mesa-utils
 Filename: pool/main/o/oxyos-pipemenus/oxyos-pipemenus_13.0_all.deb
-Size: 9960
-MD5sum: 7b1edd0d9477ad4cddc336a02acbaa2d
-SHA1: 0f244b03ca2defc8b318ae6bc9e5d560c591d822
-SHA256: 9b8cb267c054d9da3bd12f14820fa2b4e89e4831a39f7a63908fd2c09e365b61
+Size: 9296
+MD5sum: f4549a121b8795fc3f207d1137042b53
+SHA1: 1c7e35102e0c3855bd081645a992c0a59c147e1a
+SHA256: f221f1357888e47037218b094a7c99110b39e8214b24144aaeb9e88ef2dbc9d4
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
@@ -266,10 +266,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 2511
 Depends: gtk2-engines-murrine
 Filename: pool/main/o/oxyos-ui-theme/oxyos-ui-theme_13.0_all.deb
-Size: 99216
-MD5sum: ac6b8d0e7bddfb46a0f9f42d83199104
-SHA1: 7dfe85beffe84fb7ac8cefaaca767bf7fa8a0368
-SHA256: 6a6167179a20506def340e9622fb8e0e0e634028a3654c3e9690aa13d1b3859c
+Size: 98744
+MD5sum: e40a98cd00619ab8b5af7ca95f70f351
+SHA1: b7d806d34ac6ecf6fa3f0b3174b4b709de85c667
+SHA256: 6cabde40d64e379755bd1498d84b8523e445c2d08369b0f98e6a123ced350013
 Section: x11
 Priority: extra
 Homepage: https://os.oxy.so
@@ -282,10 +282,10 @@ Architecture: all
 Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 269
 Filename: pool/main/o/oxyos-wallpapers/oxyos-wallpapers_13.0_all.deb
-Size: 266092
-MD5sum: 18e6d9103f6598ec4f15e785def91d02
-SHA1: 0697067271445e1c977a8b225fa8f9f5477d68aa
-SHA256: 3f21bbd62deee5798236306a960604c649d05d1470ddc96a2dd14a9e6882efe4
+Size: 265672
+MD5sum: b0c9a18596285b4a9c57033d02363b9a
+SHA1: 2cd353f9ea73bab4fc9d308238088ede6410dc23
+SHA256: b22b509588b7905f53f45b2b75a12e69aac30e761dbd569ffa685164238932d6
 Section: x11
 Priority: extra
 Homepage: https://os.oxy.so
@@ -299,10 +299,10 @@ Maintainer: OxyHQ <hello@oxy.so>
 Installed-Size: 37
 Depends: terminator, oxyos-pipemenus
 Filename: pool/main/o/oxyos-welcome/oxyos-welcome_13.0_all.deb
-Size: 7008
-MD5sum: 45eccb71497ebcc275c2c126d9a3448b
-SHA1: 40a17bcd3e12d663fe3e9aec01e8e74442b8900e
-SHA256: 3a07fdb2e2d05ef42c45a7ae725177dcdd2e1c3b10e8a1cff0b5e7cb8c093ec8
+Size: 6436
+MD5sum: 585ba8a038ac987fe393af6fa7d37ef5
+SHA1: 6ff954d039d26275665944c5f5e3bf788d7b4a70
+SHA256: fe77c6183c18b80b87fc36b76e055d2e88bd61388c87621bf30d5053ef273160
 Section: misc
 Priority: extra
 Homepage: https://os.oxy.so
