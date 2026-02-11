@@ -1,5 +1,12 @@
-FROM alpine
+FROM node:22-alpine AS build
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
 
-ADD . /everything/
+FROM alpine
+COPY --from=build /app/dist /everything/
+COPY packages/ /everything/packages/
 WORKDIR /everything
-RUN mv packages/* . && rm -rf packages .git* Dockerfile
+RUN mv packages/* . && rm -rf packages
