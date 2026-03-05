@@ -12,13 +12,13 @@ export default function Hero() {
         </p>
         <div className="mt-10 flex items-center gap-x-6">
           <a
-            href="https://downloads.os.oxy.so/oxyos-1.0-amd64.iso"
+            href="https://downloads.os.oxy.so/oxyos-1.3-amd64.iso"
             className="rounded-md bg-stone-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-stone-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-400"
           >
             Download ISO (amd64)
           </a>
           <a
-            href="https://downloads.os.oxy.so/oxyos-1.0-arm64.iso"
+            href="https://downloads.os.oxy.so/oxyos-1.3-arm64.iso"
             className="text-sm font-semibold leading-6 text-white"
           >
             ARM64 <span aria-hidden="true">&rarr;</span>

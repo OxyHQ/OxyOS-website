@@ -34,8 +34,8 @@ export default function Features() {
               </dd>
             </div>
             <div className="relative pl-9">
-              <dt className="font-semibold text-zinc-300">Linux 6.12</dt>
-              <dd className="mt-2">2025's LTS release of the Linux kernel.</dd>
+              <dt className="font-semibold text-zinc-300">Linux 6.18</dt>
+              <dd className="mt-2">Latest stable Linux kernel with full Snapdragon X support.</dd>
             </div>
             <div className="relative pl-9">
               <dt className="font-semibold text-zinc-300">Pipewire Support</dt>

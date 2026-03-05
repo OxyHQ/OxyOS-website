@@ -22,16 +22,16 @@ function DownloadIcon() {
 
 const downloads = [
   {
-    version: 'v1.0 (Trixie)',
+    version: 'v1.3 (Trixie)',
     arch: 'amd64 (x86_64)',
-    iso: 'https://downloads.os.oxy.so/oxyos-1.0-amd64.iso',
-    torrent: '/oxyos-1.0-amd64.iso.torrent',
+    iso: 'https://downloads.os.oxy.so/oxyos-1.3-amd64.iso',
+    torrent: null,
     status: 'Current',
   },
   {
-    version: 'v1.0 (Trixie)',
+    version: 'v1.3 (Trixie)',
     arch: 'arm64 (aarch64)',
-    iso: 'https://downloads.os.oxy.so/oxyos-1.0-arm64.iso',
+    iso: 'https://downloads.os.oxy.so/oxyos-1.3-arm64.iso',
     torrent: null,
     status: 'Current',
   },

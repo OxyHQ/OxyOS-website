@@ -26,7 +26,7 @@ export default function Hardware() {
             </ul>
             <div className="mt-8">
               <a
-                href="https://downloads.os.oxy.so/oxyos-1.0-amd64.iso"
+                href="https://downloads.os.oxy.so/oxyos-1.3-amd64.iso"
                 className="rounded-md bg-stone-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-stone-400"
               >
                 Download amd64
@@ -47,7 +47,7 @@ export default function Hardware() {
             </ul>
             <div className="mt-8">
               <a
-                href="https://downloads.os.oxy.so/oxyos-1.0-arm64.iso"
+                href="https://downloads.os.oxy.so/oxyos-1.3-arm64.iso"
                 className="rounded-md bg-stone-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-stone-400"
               >
                 Download arm64
