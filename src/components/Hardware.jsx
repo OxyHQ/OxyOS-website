@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
+import { useReleases, getDownloadUrl } from '../hooks/useReleases'
 
 export default function Hardware() {
+  const { latest } = useReleases()
+
   return (
     <div className="relative isolate bg-zinc-800 pb-32 pt-24 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -26,7 +29,7 @@ export default function Hardware() {
             </ul>
             <div className="mt-8">
               <a
-                href="https://downloads.os.oxy.so/oxyos-1.3-amd64.iso"
+                href={getDownloadUrl(latest, 'amd64')}
                 className="rounded-md bg-stone-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-stone-400"
               >
                 Download amd64
@@ -47,7 +50,7 @@ export default function Hardware() {
             </ul>
             <div className="mt-8">
               <a
-                href="https://downloads.os.oxy.so/oxyos-1.3-arm64.iso"
+                href={getDownloadUrl(latest, 'arm64')}
                 className="rounded-md bg-stone-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-stone-400"
               >
                 Download arm64

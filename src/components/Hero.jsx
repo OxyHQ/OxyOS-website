@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
+import { useReleases, getDownloadUrl } from '../hooks/useReleases'
 
 export default function Hero() {
+  const { latest } = useReleases()
+
   return (
     <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
       <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
@@ -12,13 +15,13 @@ export default function Hero() {
         </p>
         <div className="mt-10 flex items-center gap-x-6">
           <a
-            href="https://downloads.os.oxy.so/oxyos-1.3-amd64.iso"
+            href={getDownloadUrl(latest, 'amd64')}
             className="rounded-md bg-stone-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-stone-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-400"
           >
             Download ISO (amd64)
           </a>
           <a
-            href="https://downloads.os.oxy.so/oxyos-1.3-arm64.iso"
+            href={getDownloadUrl(latest, 'arm64')}
             className="text-sm font-semibold leading-6 text-white"
           >
             ARM64 <span aria-hidden="true">&rarr;</span>

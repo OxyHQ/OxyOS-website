@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { useReleases } from '../hooks/useReleases'
 
 function DownloadIcon() {
   return (
@@ -20,24 +21,9 @@ function DownloadIcon() {
   )
 }
 
-const downloads = [
-  {
-    version: 'v1.3 (Trixie)',
-    arch: 'amd64 (x86_64)',
-    iso: 'https://downloads.os.oxy.so/oxyos-1.3-amd64.iso',
-    torrent: null,
-    status: 'Current',
-  },
-  {
-    version: 'v1.3 (Trixie)',
-    arch: 'arm64 (aarch64)',
-    iso: 'https://downloads.os.oxy.so/oxyos-1.3-arm64.iso',
-    torrent: null,
-    status: 'Current',
-  },
-]
-
 export default function Download() {
+  const { releases, loading } = useReleases()
+
   return (
     <div className="bg-zinc-900">
       <div className="relative isolate overflow-hidden bg-zinc-900">
@@ -121,54 +107,55 @@ export default function Download() {
                                 scope="col"
                                 className="px-3 py-3.5 text-left text-sm font-semibold text-white"
                               >
-                                Torrent
-                              </th>
-                              <th
-                                scope="col"
-                                className="px-3 py-3.5 text-left text-sm font-semibold text-white"
-                              >
                                 Status
                               </th>
                             </tr>
                           </thead>
                           <tbody className="divide-y divide-zinc-700 bg-zinc-800">
-                            {downloads.map((dl) => (
-                              <tr key={dl.arch}>
-                                <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">
-                                  {dl.version}
+                            {loading ? (
+                              <tr>
+                                <td colSpan="4" className="px-3 py-8 text-sm text-zinc-400 text-center">
+                                  Loading releases...
                                 </td>
-                                <td className="whitespace-nowrap px-3 py-4 text-sm text-zinc-300">
-                                  {dl.arch}
+                              </tr>
+                            ) : releases.length === 0 ? (
+                              <tr>
+                                <td colSpan="4" className="px-3 py-8 text-sm text-zinc-400 text-center">
+                                  No releases found
                                 </td>
-                                <td className="whitespace-nowrap px-3 py-4 text-sm text-blue-300">
-                                  <a
-                                    href={dl.iso}
-                                    className="flex items-center hover:text-gray-500"
-                                  >
-                                    <DownloadIcon />
-                                    &nbsp;&nbsp; ISO
-                                  </a>
-                                </td>
-                                <td className="whitespace-nowrap px-3 py-4 text-sm text-blue-300">
-                                  {dl.torrent ? (
+                              </tr>
+                            ) : (
+                              releases.map((dl) => (
+                                <tr key={`${dl.ver}-${dl.arch}`}>
+                                  <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">
+                                    {dl.version}
+                                  </td>
+                                  <td className="whitespace-nowrap px-3 py-4 text-sm text-zinc-300">
+                                    {dl.archLabel}
+                                  </td>
+                                  <td className="whitespace-nowrap px-3 py-4 text-sm text-blue-300">
                                     <a
-                                      href={dl.torrent}
+                                      href={dl.iso}
                                       className="flex items-center hover:text-gray-500"
                                     >
                                       <DownloadIcon />
-                                      &nbsp;&nbsp; Torrent
+                                      &nbsp;&nbsp; ISO
                                     </a>
-                                  ) : (
-                                    <span className="text-zinc-500">&mdash;</span>
-                                  )}
-                                </td>
-                                <td className="whitespace-nowrap px-3 py-4 text-sm">
-                                  <div className="inline-flex items-center rounded-md bg-green-900 px-2 py-1 text-xs font-medium text-green-100 ring-1 ring-inset ring-green-100/20">
-                                    {dl.status}
-                                  </div>
-                                </td>
-                              </tr>
-                            ))}
+                                  </td>
+                                  <td className="whitespace-nowrap px-3 py-4 text-sm">
+                                    <div
+                                      className={`inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ${
+                                        dl.status === 'Current'
+                                          ? 'bg-green-900 text-green-100 ring-green-100/20'
+                                          : 'bg-zinc-700 text-zinc-300 ring-zinc-500/20'
+                                      }`}
+                                    >
+                                      {dl.status}
+                                    </div>
+                                  </td>
+                                </tr>
+                              ))
+                            )}
                           </tbody>
                         </table>
                       </div>
