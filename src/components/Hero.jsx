@@ -11,20 +11,14 @@ export default function Hero() {
           OxyOS
         </h1>
         <p className="mt-6 text-lg leading-8 text-zinc-300">
-          A lightweight desktop Linux project. Still small, still fast, built on Debian Trixie. Now available for x86_64 and ARM64 (Snapdragon X).
+          A lightweight desktop Linux project. Still small, still fast.
         </p>
         <div className="mt-10 flex items-center gap-x-6">
           <a
             href={getDownloadUrl(latest, 'amd64')}
             className="rounded-md bg-stone-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-stone-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-400"
           >
-            Download ISO (amd64)
-          </a>
-          <a
-            href={getDownloadUrl(latest, 'arm64')}
-            className="text-sm font-semibold leading-6 text-white"
-          >
-            ARM64 <span aria-hidden="true">&rarr;</span>
+            Download ISO
           </a>
           <Link
             to="/download"

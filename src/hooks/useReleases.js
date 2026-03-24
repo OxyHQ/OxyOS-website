@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 const DOWNLOAD_BASE = 'https://downloads.os.oxy.so'
-const ARCHS = ['amd64', 'arm64']
+const ARCHS = ['amd64']
 
 function compareVersions(a, b) {
   const pa = a.replace('v', '').split('.').map(Number)

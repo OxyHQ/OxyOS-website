@@ -34,9 +34,9 @@ export default function FAQ() {
                   What happened to the i686 (32-bit) image?
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-300">
-                  Debian has dropped support for the i686 architecture as a first
-                  class architecture. While it is still possible to run a 32-bit
-                  userland on a 64-bit kernel, we will no longer produce a 32-bit image.
+                  The upstream base has dropped i686 as a first-class architecture.
+                  While it is still possible to run a 32-bit userland on a 64-bit
+                  kernel, we will no longer produce a 32-bit image.
                 </dd>
               </div>
               <div>
@@ -44,8 +44,8 @@ export default function FAQ() {
                   Will you still be supporting older OxyOS releases?
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-300">
-                  Debian continues to issue security updates for ~1 year after a
-                  new 'stable' is release. While the older OxyOS releases won't
+                  The upstream base continues to issue security updates for ~1 year after a
+                  new stable release. While the older OxyOS releases won't
                   be getting any new updates from us, the repos will continue to
                   be available for at least the next year as well.
                 </dd>
@@ -64,19 +64,6 @@ export default function FAQ() {
                     Github repo
                   </a>
                   .
-                </dd>
-              </div>
-              <div>
-                <dt className="text-base font-semibold leading-7 text-white">
-                  Does OxyOS work on Snapdragon X laptops?
-                </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-300">
-                  Yes! Download the ARM64 ISO and boot from USB with Secure Boot disabled.
-                  After booting, run{' '}
-                  <code className="bg-zinc-700 px-1.5 py-0.5 rounded text-sm">
-                    sudo oxyos-qcom-firmware
-                  </code>{' '}
-                  to extract GPU firmware from your Windows partition for full graphics support.
                 </dd>
               </div>
             </dl>

@@ -38,27 +38,6 @@ export default function Hardware() {
           </div>
 
           <div className="rounded-2xl bg-zinc-700 p-8 shadow-lg ring-1 ring-gray-900/5">
-            <h3 className="text-lg font-semibold text-white">ARM64 / Snapdragon X</h3>
-            <p className="mt-4 text-zinc-300">
-              ARM-based laptops including Snapdragon X Elite and Plus devices.
-              Qualcomm firmware tools included.
-            </p>
-            <ul className="mt-6 space-y-2 text-zinc-400">
-              <li>Snapdragon X Elite / Plus</li>
-              <li>UEFI boot (EFI only)</li>
-              <li>Mesa Freedreno GPU drivers</li>
-            </ul>
-            <div className="mt-8">
-              <a
-                href={getDownloadUrl(latest, 'arm64')}
-                className="rounded-md bg-stone-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-stone-400"
-              >
-                Download arm64
-              </a>
-            </div>
-          </div>
-
-          <div className="rounded-2xl bg-zinc-700 p-8 shadow-lg ring-1 ring-gray-900/5">
             <h3 className="text-lg font-semibold text-white">Minimum Requirements</h3>
             <p className="mt-4 text-zinc-300">
               OxyOS is designed to be lightweight. It runs well on modest hardware

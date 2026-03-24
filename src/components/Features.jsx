@@ -21,21 +21,14 @@ export default function Features() {
           </div>
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-zinc-200 sm:grid-cols-2 lg:gap-y-16">
             <div className="relative pl-9">
-              <dt className="font-semibold text-zinc-300">Debian 13 base</dt>
+              <dt className="font-semibold text-zinc-300">Trixie base</dt>
               <dd className="mt-2">
-                Read more about Debian 13's major changes{' '}
-                <a
-                  className="font-semibold text-gray-100 hover:text-gray-400"
-                  href="https://www.debian.org/releases/trixie/release-notes/"
-                >
-                  here
-                </a>
-                .
+                Built on the latest stable foundation with modern packages and long-term security support.
               </dd>
             </div>
             <div className="relative pl-9">
               <dt className="font-semibold text-zinc-300">Linux 6.18</dt>
-              <dd className="mt-2">Latest stable Linux kernel with full Snapdragon X support.</dd>
+              <dd className="mt-2">Latest stable Linux kernel with broad hardware support.</dd>
             </div>
             <div className="relative pl-9">
               <dt className="font-semibold text-zinc-300">Pipewire Support</dt>
@@ -59,10 +52,10 @@ export default function Features() {
               </dd>
             </div>
             <div className="relative pl-9">
-              <dt className="font-semibold text-zinc-300">ARM64 / Snapdragon X</dt>
+              <dt className="font-semibold text-zinc-300">Openbox desktop</dt>
               <dd className="mt-2">
-                Native support for ARM64 laptops including Snapdragon X Elite/Plus devices.
-                Includes Qualcomm firmware tools, Mesa Freedreno GPU drivers, and EFI boot.
+                A fast, minimal window manager with a clean workflow.
+                Tiling, keybindings, and pipe menus out of the box.
               </dd>
             </div>
           </dl>
