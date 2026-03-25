@@ -50,7 +50,7 @@ export function useReleases() {
               version: `${version} (Ozone)`,
               ver,
               arch,
-              archLabel: arch === 'amd64' ? 'amd64 (x86_64)' : 'arm64 (aarch64)',
+              archLabel: 'amd64 (x86_64)',
               iso: `${DOWNLOAD_BASE}/oxyos-${ver}-${arch}.iso`,
               status: i === 0 ? 'Current' : 'Older',
             })
