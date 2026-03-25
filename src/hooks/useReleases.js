@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const DOWNLOAD_BASE = 'https://downloads.os.oxy.so'
+const DOWNLOAD_BASE = 'https://os.oxy.so/downloads'
 const ARCHS = ['amd64']
 
 function compareVersions(a, b) {
