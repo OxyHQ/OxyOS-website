@@ -47,7 +47,7 @@ export function useReleases() {
           const ver = version.replace('v', '')
           ARCHS.forEach(arch => {
             allDownloads.push({
-              version: `${version} (Trixie)`,
+              version: `${version} (Ozone)`,
               ver,
               arch,
               archLabel: arch === 'amd64' ? 'amd64 (x86_64)' : 'arm64 (aarch64)',
